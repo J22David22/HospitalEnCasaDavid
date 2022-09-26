@@ -130,6 +130,8 @@ namespace Hospital.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("HistoriaClinicaId");
+
                     b.ToTable("SugerenciasCuidados");
                 });
 
@@ -233,6 +235,15 @@ namespace Hospital.App.Persistencia.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Hospital.App.Dominio.SugerenciasCuidado", b =>
+                {
+                    b.HasOne("Hospital.App.Dominio.HistoriaClinica", null)
+                        .WithMany("SugerenciasCuidado")
+                        .HasForeignKey("HistoriaClinicaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Hospital.App.Dominio.Paciente", b =>
                 {
                     b.HasOne("Hospital.App.Dominio.Medico", null)
@@ -240,6 +251,11 @@ namespace Hospital.App.Persistencia.Migrations
                         .HasForeignKey("MedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Hospital.App.Dominio.HistoriaClinica", b =>
+                {
+                    b.Navigation("SugerenciasCuidado");
                 });
 
             modelBuilder.Entity("Hospital.App.Dominio.Medico", b =>

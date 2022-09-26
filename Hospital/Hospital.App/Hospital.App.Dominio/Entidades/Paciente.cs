@@ -11,8 +11,7 @@ namespace Hospital.App.Dominio
        public string Ciudad {get; set;}
        public DateTime FechaNacimiento {get;set;}
 
-       #nullable enable
-       public int MedicoId {get; set;}
+       public int? MedicoId {get; set;}
        public int EnfermeraId {get;set;}
        public List<SignoVital> SignosVitales {get;set;}
        public int HistoriaClinicaId {get;set;}

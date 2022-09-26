@@ -1,0 +1,30 @@
+﻿@page
+@model Hospital.App.Frontend.Pages.CrearSugerenciaModel
+@{
+}
+<h1>Crear Sugerencia</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+    <div class="mb-3">
+        <label asp-for="SugerenciasCuidado.FechaHora" class="form-label">Fecha y Hora</label>
+        <input type="text" asp-for="SugerenciasCuidado.FechaHora" class="form-control" id="FechaHora">
+        <span asp-validation-for="SugerenciasCuidado.FechaHora" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="SugerenciasCuidado.Descripcion" class="form-label">Descripcion</label>
+        <input type="text" asp-for="SugerenciasCuidado.Descripcion" class="form-control" id="txtDescripcion">
+        <span asp-validation-for="SugerenciasCuidado.Descripcion" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="SugerenciasCuidado.HistoriaClinicaId" class="form-label">Historia Clinica #</label>
+        <input type="text" asp-for="SugerenciasCuidado.HistoriaClinicaId" class="form-control" id="txtHistoriaId">
+        <span asp-validation-for="SugerenciasCuidado.HistoriaClinicaId" class="text-danger"></span>
+    </div>
+    @*<div class="mb-3">
+        <label asp-for="Persona.Genero" class="form-label">Genero</label>
+        <input type="text" asp-for="Persona.Genero" class="form-control" id="txtGenero">
+        <span asp-validation-for="Persona.Genero" class="text-danger"></span>
+    </div> *@
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

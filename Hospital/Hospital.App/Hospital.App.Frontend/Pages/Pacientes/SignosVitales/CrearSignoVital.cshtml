@@ -14,10 +14,17 @@
             <form method="POST">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="@Model.signoVital.Id" />
-                <div class="col-8 mb-3">
+                
+                @* <div class="col-8 mb-3">
                     <label asp-for="@Model.signoVital.FechaHora" class="form-label">Fecha de toma</label>
                     <input type="text" asp-for="@Model.signoVital.FechaHora" class="form-control" id="FechaHora">
                     <span asp-validation-for="@Model.signoVital.FechaHora" class="text-danger"></span>
+                </div> *@
+                <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                    <label for="example">Fecha de la toma...</label>
+                    <input placeholder="Select date" type="date" asp-for="@Model.signoVital.FechaHora" class="form-control">
+                    
+                    <i class="fas fa-calendar input-prefix"></i>
                 </div>
                 <div class="col-8 mb-3">
                     <label asp-for="@Model.signoVital.Signo" class="form-label">signoVital</label>

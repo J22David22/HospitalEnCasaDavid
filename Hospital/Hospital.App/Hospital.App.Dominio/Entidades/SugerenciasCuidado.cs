@@ -8,7 +8,7 @@ namespace Hospital.App.Dominio
         public int Id {get;set;}
         public DateTime FechaHora{get;set;}
         public string Descripcion {get;set;}
-        public int HistoriaClinicaId {get;set;}
+        public int? HistoriaClinicaId {get;set;}
         
     }
 

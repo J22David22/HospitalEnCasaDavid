@@ -3,21 +3,39 @@
 @{
     //Codigo C#
     ViewData["Title"] = "Listado de SignosVitales";
-    int pacienteId=Model.paciente.Id;
 }
 
-<h1>Listado de SignosVitales de la Aplicacion</h1>
+<h1>Listado de Signos Vitales Asociados Al Paciente</h1>
+<h2>Paciente: @Model.Persona.Nombre  @Model.Persona.Apellidos</h2>
 <hr>
 
 <br>
-
-
-<form method="post" > 
-    <input type="hidden" asp-for="paciente.Id" ></label>
-    <button type="submit" asp-for="paciente.Id" class="btn btn-primary">Crear</button>
-</form> 
 <form method="post">
-    
+    <div >
+        @{TempData["idpaciente"]=@Model.paciente.Id;}
+        <label for="example">Fecha inferior...</label>
+        <input placeholder="Select date" type="date" asp-for="@Model.fechaInf" class="form-control">
+        <i class="fas fa-calendar input-prefix"></i>
+    </div>
+    <div>
+        <label for="example">Fecha superior...</label>
+        <input placeholder="Select date" type="date" asp-for="@Model.fechaSup" class="form-control">
+        <i class="fas fa-calendar input-prefix"></i>   
+    </div>
+    <div>
+        <button type="submit" asp-for="@Model.paciente.Id" class= "btn btn-primary">Filtrar</button>     
+    </div>
+</form>
+
+<form  > 
+    @* <input type="hidden" asp-for="@Model.paciente.Id" ></label> *@
+    @{TempData["idpaciente"]=@Model.paciente.Id;}
+    <a type="submit" asp-for="@Model.paciente.Id" asp-page="./CrearSignoVital" class="btn btn-primary">Crear</a>
+</form> 
+
+
+<form >
+    @{TempData["idpaciente"]=@Model.paciente.Id;}
     @* <a asp-page="./CrearSignoVital" asp-route-pId="@Model.paciente.Id">Crear SignoVital</a> *@
     <table class="table table-dark table-striped">
         <thead>
@@ -42,7 +60,7 @@
                     <td>@siv.PacienteId</td>
                     
                     <td>
-                        <a type="submit" asp-page="./EditarSignoVital"  asp-route-id="@siv.Id">Editar</a>
+                        <a asp-page="./EditarSignoVital"  asp-route-id="@siv.Id">Editar</a>
                     </td>
                     <td>
                         <a asp-page="./EliminarSignoVital" asp-route-id="@siv.Id">

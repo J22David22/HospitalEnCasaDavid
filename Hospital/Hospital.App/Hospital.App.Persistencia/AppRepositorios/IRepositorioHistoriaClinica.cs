@@ -14,5 +14,6 @@ namespace Hospital.App.Persistencia
         public void DeleteHistoriaClinica (int idHistoriaClinica);
 
         public HistoriaClinica GetHistoriaClinica (int idHistoriaClinica);
+        public IEnumerable<HistoriaClinica> GetHistoriaXPaciente(int idPaciente);
     }
 }

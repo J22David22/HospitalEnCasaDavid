@@ -1,0 +1,228 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hospital.App.Frontend
+build_property.RootNamespace = Hospital.App.Frontend
+build_property.ProjectDir = C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Frontend\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/AdminAuxFmliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xBZG1pbkF1eEZtbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/AdminAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xBZG1pbkF1eGlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/AdminAuxMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xBZG1pbkF1eE1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/CrearAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xDcmVhckF1eGlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/EditarAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xFZGl0YXJBdXhpbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/EliminarAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xFbGltaW5hckF1eGlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/ListadoAuxiliares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xMaXN0YWRvQXV4aWxpYXJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/LoginAuxiliares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xMb2dpbkF1eGlsaWFyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Auxiliares/VerAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJlc1xWZXJBdXhpbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/CrearEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xDcmVhckVuZmVybWVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/EditarEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xFZGl0YXJFbmZlcm1lcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/EliminarEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xFbGltaW5hckVuZmVybWVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/ListadoEnfermeras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xMaXN0YWRvRW5mZXJtZXJhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/LoginEnfermeras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xMb2dpbkVuZmVybWVyYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Enfermeras/VerEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xWZXJFbmZlcm1lcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/CrearFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xDcmVhckZhbWlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/EditarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xFZGl0YXJGYW1pbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/EditarMFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xFZGl0YXJNRmFtaWxpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/EliminarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xFbGltaW5hckZhbWlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/ListadoFamiliares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xMaXN0YWRvRmFtaWxpYXJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/LoginFamiliares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xMb2dpbkZhbWlsaWFyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Familiares/VerFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc1xWZXJGYW1pbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/CrearMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xDcmVhck1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/EditarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xFZGl0YXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/EliminarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xFbGltaW5hck1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/ListadoMedicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xMaXN0YWRvTWVkaWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/ListadoPacientesM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xMaXN0YWRvUGFjaWVudGVzTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/LoginMedicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xMb2dpbk1lZGljb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Medicos/VerMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xWZXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/CrearPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXENyZWFyUGFjaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/EditarMPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEVkaXRhck1QYWNpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/EditarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEVkaXRhclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/EliminarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEVsaW1pbmFyUGFjaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/HistoriasClinicas/EditarHistoriaClinica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEhpc3Rvcmlhc0NsaW5pY2FzXEVkaXRhckhpc3RvcmlhQ2xpbmljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/ListadoPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXExpc3RhZG9QYWNpZW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/LoginPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXExvZ2luUGFjaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/SignosVitales/CrearSignoVital.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFNpZ25vc1ZpdGFsZXNcQ3JlYXJTaWdub1ZpdGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/SignosVitales/EditarSignoVital.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFNpZ25vc1ZpdGFsZXNcRWRpdGFyU2lnbm9WaXRhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/SignosVitales/EliminarSignoVital.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFNpZ25vc1ZpdGFsZXNcRWxpbWluYXJTaWdub1ZpdGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/SignosVitales/ListadoSignosVitales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFNpZ25vc1ZpdGFsZXNcTGlzdGFkb1NpZ25vc1ZpdGFsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Pacientes/VerPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFZlclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Personas/CrearPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcQ3JlYXJQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Personas/EditarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWRpdGFyUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Personas/EliminarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWxpbWluYXJQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Personas/ListadoPersonas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcTGlzdGFkb1BlcnNvbmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Personas/VerPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcVmVyUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rocio Carvajal/Desktop/ProyectoHospital/Hospital/Hospital.App/Hospital.App.Frontend/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wrz6q376ws

@@ -1,0 +1,12 @@
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\bin\Debug\net6.0\Hospital.App.Dominio.deps.json
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\bin\Debug\net6.0\Hospital.App.Dominio.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\bin\Debug\net6.0\Hospital.App.Dominio.pdb
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.AssemblyInfo.cs
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\refint\Hospital.App.Dominio.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\Hospital.App.Dominio.pdb
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Dominio\obj\Debug\net6.0\ref\Hospital.App.Dominio.dll

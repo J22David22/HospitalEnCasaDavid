@@ -1,0 +1,17 @@
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Persistencia.deps.json
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Persistencia.runtimeconfig.json
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Persistencia.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Persistencia.pdb
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Dominio.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\bin\Debug\net6.0\Hospital.App.Dominio.pdb
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.AssemblyInfo.cs
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.csproj.CopyComplete
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\refint\Hospital.App.Persistencia.dll
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.pdb
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\Hospital.App.Persistencia.genruntimeconfig.cache
+C:\Users\Rocio Carvajal\Desktop\ProyectoHospital\Hospital\Hospital.App\Hospital.App.Persistencia\obj\Debug\net6.0\ref\Hospital.App.Persistencia.dll
