@@ -1,11 +1,12 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.CrearSugerenciaModel
+@model Hospital.App.Frontend.Pages.EditarSugerenciaModel
 @{
 }
-<h1>Crear Sugerencia</h1>
+<h1>Editar Sugerencia</h1>
 <h3>@ViewData["Error"]</h3>
 <form method="POST">
     <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+    <input type="hidden" asp-for="sugerenciasCuidado.Id" />
     <div class="mb-3">
         <label asp-for="sugerenciasCuidado.Descripcion" class="form-label">Descripcion</label>
         <input type="text" asp-for="sugerenciasCuidado.Descripcion" class="form-control" id="txtDescripcion">

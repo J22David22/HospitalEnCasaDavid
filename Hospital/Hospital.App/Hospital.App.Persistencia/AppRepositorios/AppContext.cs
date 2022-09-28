@@ -17,6 +17,7 @@ namespace Hospital.App.Persistencia
         public DbSet<SugerenciasCuidado> SugerenciasCuidados {get;set;}
         public DbSet<HistoriaClinica> HistoriasClinicas {get;set;}
         public DbSet<SignoVital> SignosVitales {get;set;}
+        public DbSet<Diagnostico> Diagnosticos {get;set;}
 
         protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder)
         {

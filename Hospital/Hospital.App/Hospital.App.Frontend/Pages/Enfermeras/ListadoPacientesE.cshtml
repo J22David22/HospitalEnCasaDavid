@@ -1,12 +1,12 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.ListadoPacientesMModel
+@model Hospital.App.Frontend.Pages.ListadoPacientesEModel
 @{
     //Codigo C#
-    ViewData["Title"] = "Listado de PacientesM";
+    ViewData["Title"] = "Listado de PacientesE";
 }
 
-<h1>Listado de PacientesM de la Aplicacion</h1>
-<h2>Medico @Model.medico.Nombre @Model.medico.Apellidos</h2>
+<h1>Listado de PacientesE de la Aplicacion</h1>
+<h2>Enfermera @Model.enfermera.Nombre @Model.enfermera.Apellidos</h2>
 <hr>
 
 <br>
@@ -21,13 +21,13 @@
                 <th scope="col">Género</th>
                 <th scope="col">Direccion </th>
                 <th scope="col">Latitud </th>
-                <th scope="col">MedicoId </th>
+                <th scope="col">EnfermeraId </th>
                 
                 <th scope="col" colspan="7">Opciones</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var paciente in Model.PacientesM)
+            @foreach (var paciente in Model.PacientesE)
             {
                 <tr>                    
                     <td scope="row">@paciente.Id</td>
@@ -37,7 +37,7 @@
                     <td>@paciente.Genero</td>
                     <td>@paciente.Direccion</td>
                     <td>@paciente.Latitud</td>
-                    <td>@paciente.MedicoId</td>
+                    <td>@paciente.EnfermeraId</td>
                     
 
                     
@@ -47,7 +47,7 @@
                     @* <td><a asp-page="../Pacientes/EditarPaciente" asp-route-id="@paciente.Id">Editar</a></td> *@
                     
                     @* <td><a asp-page="../Pacientes/HistoriasClinicas/EditarHistoriaClinica" asp-route-id="@paciente.Id">Editar Historia</a></td> *@
-                    <td><a asp-page="../Pacientes/HistoriasClinicas/ListadoHistorias" asp-route-id="@paciente.Id">Listado Historias</a></td>
+                    <td><a asp-page="./ListadoHistoriasE" asp-route-id="@paciente.Id">Listado Historias</a></td>
                     <td><a asp-page="../Pacientes/SignosVitales/ListadoSignosVitales" asp-route-id="@paciente.Id">Listado Signos Vitales</a></td>
 
                     @* <td><a asp-page="../Pacientes/SugerenciasCuidado/SugerenciasCuidado" asp-route-id="@paciente.Id">Listado Sugerecias Cuidado</a></td> *@

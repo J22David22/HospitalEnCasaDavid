@@ -5,7 +5,7 @@ using Hospital.App.Persistencia;
 
 namespace Hospital.App.Frontend.Pages
 {
-    public class CrearSugerenciaModel : PageModel
+    public class EditarSugerenciaModel : PageModel
     {
         private IRepositorioSugerenciasCuidado _repositorioSugerencias = new RepositorioSugerenciasCuidado( new Hospital.App.Persistencia.AppContext());
         private IRepositorioDiagnostico _repositorioDiagnostico = new RepositorioDiagnostico( new Hospital.App.Persistencia.AppContext());
@@ -26,7 +26,7 @@ namespace Hospital.App.Frontend.Pages
         [BindProperty]
         public SugerenciasCuidado sugerenciasCuidado{get;set;}
 
-        public CrearSugerenciaModel()
+        public EditarSugerenciaModel()
         {}
 
         public ActionResult OnPost()
@@ -37,9 +37,13 @@ namespace Hospital.App.Frontend.Pages
                 sugerenciasCuidado.FechaHora = fecha;
                 sugerenciasCuidado.HistoriaClinicaId = historiaClinica.Id;
                 sugerenciasCuidado.DiagnosticoId = diagnostico.Id;
+                Console.WriteLine("fecha: " + sugerenciasCuidado.Descripcion);
+                Console.WriteLine("diag: " + sugerenciasCuidado.DiagnosticoId);
                 Console.WriteLine("fecha: " + sugerenciasCuidado.FechaHora+" histclinid: " + sugerenciasCuidado.HistoriaClinicaId);
-                SugerenciasCuidado sugerenciaAdicionada = _repositorioSugerencias.AddSugerenciasCuidado(sugerenciasCuidado);
-            return Redirect("../SugerenciasCuidado/ListaSugerenciasCuidado?Id="+diagnostico.Id);
+                SugerenciasCuidado sugerenciaAdicionada = _repositorioSugerencias.UpdateSugerenciasCuidado(sugerenciasCuidado);
+                Console.WriteLine("desc: "+sugerenciaAdicionada.Descripcion+" hcid: "+sugerenciaAdicionada.HistoriaClinicaId+" did: "+sugerenciaAdicionada.DiagnosticoId);
+                Console.WriteLine("fecha: "+sugerenciaAdicionada.FechaHora+"desc: "+sugerenciaAdicionada.Descripcion+" hcid: "+sugerenciaAdicionada.HistoriaClinicaId+" did: "+sugerenciaAdicionada.DiagnosticoId);
+                return Redirect("../SugerenciasCuidado/ListaSugerenciasCuidado?Id="+sugerenciaAdicionada.DiagnosticoId);
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;
@@ -49,8 +53,10 @@ namespace Hospital.App.Frontend.Pages
         }
         public void OnGet(int id)
         {
-            diagnostico = _repositorioDiagnostico.GetDiagnostico(id);
-            historiaClinica = _repoHistoria.GetHistoriaClinica(diagnostico.HistClinId);
+            sugerenciasCuidado=_repositorioSugerencias.GetSugerenciasCuidado(id);
+            Console.WriteLine("sug: "+sugerenciasCuidado.Descripcion);
+            diagnostico = _repositorioDiagnostico.GetDiagnostico(sugerenciasCuidado.DiagnosticoId);
+            historiaClinica = _repoHistoria.GetHistoriaClinica(sugerenciasCuidado.HistoriaClinicaId);
         }
     }
 }

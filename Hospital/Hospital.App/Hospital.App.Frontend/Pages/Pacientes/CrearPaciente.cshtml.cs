@@ -51,7 +51,7 @@ namespace Hospital.App.Frontend.Pages
                 pacienteAdicionado.HistoriaClinicaId = historiaClinicaAdicionado.Id;
                 Paciente pacienteActualizado = _repositorioPaciente.UpdatePaciente(pacienteAdicionado);
 
-                return RedirectToPage("/Auxiliares/AdminAuxiliar");
+                return RedirectToPage("../Auxiliares/AdminAuxPaciente");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

@@ -5,7 +5,7 @@
 
 <h1>Información del Familiar</h1>
 <p>
-    <a asp-page="./ListadoFamiliares">Listado de Familiares</a>
+   
 </p>
 
 <form method="POST">
@@ -30,6 +30,8 @@
                     
                 </div>
                 <a  asp-page="./EditarMFamiliar" asp-route-id="@Model.familiar.Id" >Editar datos</a>
+                <a  class="btn btn-primary" asp-page="/Pacientes/SignosVitales/ListadoSignosVItales" asp-route-id="@Model.familiar.FamiliarPacienteId" >Signos Vitales</a>
+                <a  class="btn btn-primary" asp-page="/Enfermeras/ListadoHistoriasE" asp-route-id="@Model.familiar.FamiliarPacienteId" >Historia clínica</a>
             </div>
         </div>
     </div>

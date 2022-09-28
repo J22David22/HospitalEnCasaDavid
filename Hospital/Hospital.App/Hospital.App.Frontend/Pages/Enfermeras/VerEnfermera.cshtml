@@ -5,7 +5,7 @@
 
 <h1>Información del enfermera</h1>
 <p>
-    <a asp-page="./ListadoEnfermeras">Listado de Enfermeras</a>
+   
 </p>
 
 <form method="POST">
@@ -25,7 +25,7 @@
                     <p class="card-text">Numero de Telefono: @Model.enfermera.NumeroTelefono</p>
                     <p class="card-text">Género: @Model.enfermera.Genero</p>
                     <p class="card-text">Parentesco: @Model.enfermera.TarjetaProfesional</p>
-                    
+                    <p class="card-text"><a asp-page="./ListadoPacientesE" asp-route-id="@Model.enfermera.Id">Pacientes</a></p>
                 </div>
             </div>
         </div>

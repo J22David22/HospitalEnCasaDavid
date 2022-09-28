@@ -1,0 +1,40 @@
+﻿@page
+@model Hospital.App.Frontend.Pages.ListaSugerenciasCuidadoModel
+@{
+    //Codigo C#
+    ViewData["Title"] = "Listado de Sugerencias Existentes";
+}
+
+<h1>Listado de Sugerencias de Cuidado Asociadas a la historia clinica</h1>
+<hr>
+
+
+<a asp-page="./CrearSugerencia" asp-route-id="@Model.diagnostico.Id">Crear Sugerencia</a> 
+<br>
+<form method="POST">
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">FechaHora</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Historia Clinica</th>
+                <th scope="col" colspan="4">Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sugerencia in Model.sugerenciasCuidados)
+            {
+                <tr>                    
+                    <td scope="row">@sugerencia.Id</td>
+                    <td>@sugerencia.FechaHora</td>
+                    <td>@sugerencia.Descripcion</td>
+                    <td>@sugerencia.HistoriaClinicaId</td>
+                    <td><a asp-page="./EditarSugerencia" asp-route-id="@sugerencia.Id">Editar</a></td>
+                    <td><a asp-page="./EliminarSugerencia" asp-route-id="@sugerencia.Id">Eliminar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+

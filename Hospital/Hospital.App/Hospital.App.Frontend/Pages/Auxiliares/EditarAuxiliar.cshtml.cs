@@ -23,7 +23,7 @@ namespace Hospital.App.Frontend.Pages
         {
             try{
                 Auxiliar auxiliarActualizado = _repositorioAuxiliar.UpdateAuxiliar(auxiliar);
-                return RedirectToPage("./ListadoAuxiliares");
+                return RedirectToPage("./AdminAuxiliar");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

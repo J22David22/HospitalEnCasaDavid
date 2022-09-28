@@ -1,18 +1,19 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.Auxiliares.AdminAuxMedicoModel
+@model Hospital.App.Frontend.Pages.Auxiliares.AdminAuxPacienteModel
 @{
 }
 
-<h1>Módulo de Administración - Médicos</h1>
+<h1>Módulo de Administración - Pacientes</h1>
 <hr>
 
 <div>
     <ul class="nav nav-pills">
+        
         <li class="nav-item">
-            <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxPaciente">Pacientes</a>
+            <a class="nav-link active fs-5" aria-current="page" href="#">Pacientes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active fs-5" aria-current="page" href="#">Médicos</a>
+            <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxMedico">Médicos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxFmliar">Familiar Designado</a>
@@ -26,7 +27,7 @@
     </ul>
 </div>
 <div class="mt-3">
-    <a asp-page="/Medicos/CrearMedico" class="btn btn-success btn-md" type="button">Crear Médico</a>
+    <a asp-page="/Pacientes/CrearPaciente" class="btn btn-success btn-md" type="button">Crear Paciente</a>
 </div>
 <div class="container mt-3">
     <div class="row">
@@ -43,17 +44,17 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var medico in Model.Medicos)
+                    @foreach (var paciente in Model.Pacientes)
                     {
                             <tr>
-                                <td scope="row" class="text-center">@medico.Id</td>
-                                <td class="text-center">@medico.Nombre</td>
-                                <td class="text-center">@medico.Apellidos</td>
-                                <td class="text-center">@medico.NumeroTelefono</td>
-                                <td class="text-center">@medico.Genero</td>
-                                <td class="text-center"><a asp-page="/Medicos/EditarMedico" asp-route-id="@medico.Id">Editar</a></td>
-                                <td class="text-center"><a asp-page="/Medicos/VerMedico" asp-route-id="@medico.Id">Detalle</a></td>
-                                <td class="text-center"><a asp-page="/Medicos/EliminarMedico" asp-route-id="@medico.Id">Eliminar</a></td>
+                                <td scope="row" class="text-center">@paciente.Id</td>
+                                <td class="text-center">@paciente.Nombre</td>
+                                <td class="text-center">@paciente.Apellidos</td>
+                                <td class="text-center">@paciente.NumeroTelefono</td>
+                                <td class="text-center">@paciente.Genero</td>
+                                <td class="text-center"><a asp-page="/Pacientes/EditarPaciente" asp-route-id="@paciente.Id">Editar</a></td>
+                                <td class="text-center"><a asp-page="/Pacientes/VerPaciente" asp-route-id="@paciente.Id">Detalle</a></td>
+                                <td class="text-center"><a asp-page="/Pacientes/EliminarPaciente" asp-route-id="@paciente.Id">Eliminar</a></td>
                             </tr>
                     }
                 </tbody>
@@ -63,7 +64,7 @@
             <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="~/img/medicos.jpg" alt="" class="d-block w-100">
+                        <img src="~/img/pacientes.jpg" alt="" class="d-block w-100">
                     </div>
                 </div>
             </div>

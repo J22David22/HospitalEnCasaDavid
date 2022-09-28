@@ -30,8 +30,10 @@ namespace Hospital.App.Frontend.Pages
             try{
                 Console.WriteLine("sigId: "+signoVital.Id +"sigSig: "+signoVital.Signo +"sigFec: "+signoVital.FechaHora +"sigVa: "+signoVital.Valor );
                 SignoVital signoVitalEncontrado = _repositorioSignoVital.UpdateSignoVital(signoVital);
-                Console.WriteLine("signo actualizado:"+signoVitalEncontrado.Valor); 
-                return RedirectToPage("/Auxiliares/AdminAuxiliar");
+                Console.WriteLine("signo actualizado:"+signoVitalEncontrado.Valor);
+                paciente = _repositorioPaciente.GetPaciente(signoVitalEncontrado.PacienteId);
+                Console.WriteLine("signo actualizado:"+paciente.Id); 
+                return Redirect("./ListadoSignosVitales?id="+paciente.Id);
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

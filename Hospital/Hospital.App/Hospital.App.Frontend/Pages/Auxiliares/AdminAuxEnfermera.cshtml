@@ -1,9 +1,9 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.Auxiliares.AdminAuxMedicoModel
+@model Hospital.App.Frontend.Pages.Auxiliares.AdminAuxEnfermeraModel
 @{
 }
 
-<h1>Módulo de Administración - Médicos</h1>
+<h1>Módulo de Administración - Enfermeras</h1>
 <hr>
 
 <div>
@@ -12,13 +12,13 @@
             <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxPaciente">Pacientes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active fs-5" aria-current="page" href="#">Médicos</a>
+            <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxMedico">Médicos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxFmliar">Familiar Designado</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxEnfermera">Enfermeras</a>
+            <a class="nav-link active fs-5" aria-current="page" href="#">Enfermeras</a>
         </li>
         <li class="nav-item">
             <a class="nav-link fs-5" aria-current="page" asp-page="/Auxiliares/AdminAuxiliar">Auxiliares</a>
@@ -26,7 +26,7 @@
     </ul>
 </div>
 <div class="mt-3">
-    <a asp-page="/Medicos/CrearMedico" class="btn btn-success btn-md" type="button">Crear Médico</a>
+    <a asp-page="/Enfermeras/CrearEnfermera" class="btn btn-success btn-md" type="button">Crear Enfermera</a>
 </div>
 <div class="container mt-3">
     <div class="row">
@@ -43,17 +43,17 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var medico in Model.Medicos)
+                    @foreach (var enfermera in Model.Enfermeras)
                     {
                             <tr>
-                                <td scope="row" class="text-center">@medico.Id</td>
-                                <td class="text-center">@medico.Nombre</td>
-                                <td class="text-center">@medico.Apellidos</td>
-                                <td class="text-center">@medico.NumeroTelefono</td>
-                                <td class="text-center">@medico.Genero</td>
-                                <td class="text-center"><a asp-page="/Medicos/EditarMedico" asp-route-id="@medico.Id">Editar</a></td>
-                                <td class="text-center"><a asp-page="/Medicos/VerMedico" asp-route-id="@medico.Id">Detalle</a></td>
-                                <td class="text-center"><a asp-page="/Medicos/EliminarMedico" asp-route-id="@medico.Id">Eliminar</a></td>
+                                <td scope="row" class="text-center">@enfermera.Id</td>
+                                <td class="text-center">@enfermera.Nombre</td>
+                                <td class="text-center">@enfermera.Apellidos</td>
+                                <td class="text-center">@enfermera.NumeroTelefono</td>
+                                <td class="text-center">@enfermera.Genero</td>
+                                <td class="text-center"><a asp-page="/Enfermeras/EditarEnfermera" asp-route-id="@enfermera.Id">Editar</a></td>
+                                <td class="text-center"><a asp-page="/Enfermeras/VerEnfermera" asp-route-id="@enfermera.Id">Detalle</a></td>
+                                <td class="text-center"><a asp-page="/Enfermeras/EliminarEnfermera" asp-route-id="@enfermera.Id">Eliminar</a></td>
                             </tr>
                     }
                 </tbody>
@@ -63,7 +63,7 @@
             <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="~/img/medicos.jpg" alt="" class="d-block w-100">
+                        <img src="~/img/enfermeras.jpg" alt="" class="d-block w-100">
                     </div>
                 </div>
             </div>

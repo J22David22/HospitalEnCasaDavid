@@ -1,0 +1,26 @@
+﻿@page
+@model Hospital.App.Frontend.Pages.EliminarSugerenciaModel
+@{
+}
+<h2>Sugerencia a eliminar</h2>
+<hr>
+<div>
+    <a asp-page="./ListaSugerencias">Listado de Sugerencias</a>
+</div>
+
+<hr>
+<form method="post">
+    <input type="hidden" asp-for="sugerenciasCuidado.Id"/>
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header bg-transparent border-success"><label asp-for="sugerenciasCuidado">¿Estás seguro que deseas eliminar a @Model.sugerenciasCuidado.Descripcion ?</label> </div>
+        <div class="card-body text-success">
+            <h5 class="card-title">
+                <label asp-for="sugerenciasCuidado">@Model.sugerenciasCuidado.Descripcion</label>
+            </h5>
+            <hr>
+            <p class="card-text">@Model.sugerenciasCuidado.FechaHora</p>
+        </div>
+        
+    </div>
+    <input type="submit" value="Eliminar" class="btn btn-primary">
+</form>

@@ -54,8 +54,6 @@ namespace Hospital.App.Persistencia
             var historiaClinicaEncontrado = _appContext.HistoriasClinicas.FirstOrDefault(s => s.Id == historiaClinica.Id);
             if (historiaClinicaEncontrado != null)
             {
-                historiaClinicaEncontrado.Diagnostico = historiaClinica.Diagnostico;
-                historiaClinicaEncontrado.Entorno = historiaClinica.Entorno;
                 historiaClinicaEncontrado.PacienteId = historiaClinica.PacienteId;
                 historiaClinicaEncontrado.MedicoId = historiaClinica.MedicoId;
 

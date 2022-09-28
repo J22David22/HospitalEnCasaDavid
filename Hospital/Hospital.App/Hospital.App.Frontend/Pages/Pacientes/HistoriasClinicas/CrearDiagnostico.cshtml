@@ -1,10 +1,10 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.EditarHistoriaClinicaModel
+@model Hospital.App.Frontend.Pages.CrearDiagnosticoModel
 @{
-    ViewData["Title"] = "Editar HistoriaClinica";
+    ViewData["Title"] = "Crear Diagnostico";
 }
 
-<h1>Editar HistoriaClinica</h1>
+<h1>Crear Diagnostico</h1>
 <h3>@TempData["idpaciente"]</h3>
 <h3> @ViewData["Error"]</h3>
 <div class="container">
@@ -12,21 +12,16 @@
         <div class="col-sm-12 col-md-6 col-lg-6 col-lx-6">
             <form method="POST">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input type="hidden" asp-for="@Model.historiaClinica.Id" />
+                <input type="hidden" asp-for="@Model.diagnostico.Id" />
                 <div class="col-8 mb-3">
-                    <label asp-for="@Model.historiaClinica.Diagnostico" class="form-label">Diagnóstico</label>
-                    <input type="text" asp-for="@Model.historiaClinica.Diagnostico" class="form-control" id="FechaHora">
-                    <span asp-validation-for="@Model.historiaClinica.Diagnostico" class="text-danger"></span>
+                    <label asp-for="@Model.diagnostico.DiagnosticoMedico" class="form-label">Diagnóstico</label>
+                    <input type="text" asp-for="@Model.diagnostico.DiagnosticoMedico" class="form-control" id="FechaHora">
+                    <span asp-validation-for="@Model.diagnostico.DiagnosticoMedico" class="text-danger"></span>
                 </div>
                 <div class="col-8 mb-3">
-                    <label asp-for="@Model.historiaClinica.Entorno" class="form-label">Entorno</label>
-                    <input type="text" asp-for="@Model.historiaClinica.Entorno" class="form-control" id="txtSigno">
-                    <span asp-validation-for="@Model.historiaClinica.Entorno" class="text-danger"></span>
-                </div>
-                <div class="col-8 mb-3">
-                    <label asp-for="@Model.historiaClinica.MedicoId" class="form-label">MedicoId</label>
-                    <input type="text" asp-for="@Model.historiaClinica.MedicoId" class="form-control" id="txtValor" readonly>
-                    <span asp-validation-for="@Model.historiaClinica.MedicoId" class="text-danger"></span>
+                    <label asp-for="@Model.historiaClinica.Id" class="form-label">HistClinId</label>
+                    <input type="text" asp-for="@Model.historiaClinica.Id" class="form-control" id="txtValor" readonly>
+                    <span asp-validation-for="@Model.historiaClinica.Id" class="text-danger"></span>
                 </div>
                 <div class="col-8 mb-3">
                     <label asp-for="@Model.paciente.Id" class="form-label">PacienteId</label>

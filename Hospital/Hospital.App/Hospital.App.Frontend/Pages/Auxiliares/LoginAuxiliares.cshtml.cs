@@ -30,7 +30,7 @@ namespace Hospital.App.Frontend.Pages
                 
                 if (auxiliares != null)  
                 {
-                  
+                        
                         auxiliar = auxiliares.SingleOrDefault(s => s.NumeroTelefono.Contains(telefono)); 
 
                         if (auxiliar.NumeroTelefono==telefono )
@@ -38,7 +38,7 @@ namespace Hospital.App.Frontend.Pages
                             var idAuxiliarEncontrado = auxiliar.Id;
                             string str=idAuxiliarEncontrado.ToString();
                             Console.WriteLine("Encontrado: " + auxiliar.Nombre);
-                            return Redirect("./VerAuxiliar?id="+str);
+                            return RedirectToPage("./AdminAuxiliar");
                         }
                         else{
                             return Page();

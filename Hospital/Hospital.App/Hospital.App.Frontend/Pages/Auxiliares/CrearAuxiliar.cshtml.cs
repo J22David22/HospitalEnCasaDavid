@@ -26,7 +26,7 @@ namespace Hospital.App.Frontend.Pages
             try{
                 
                 Auxiliar auxiliarAdicionado = _repositorioAuxiliar.AddAuxiliar(auxiliar);
-                return RedirectToPage("./ListadoAuxiliares");
+                return RedirectToPage("./AdminAuxiliar");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

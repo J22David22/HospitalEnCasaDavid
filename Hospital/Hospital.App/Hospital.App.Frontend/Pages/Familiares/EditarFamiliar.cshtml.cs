@@ -23,7 +23,7 @@ namespace Hospital.App.Frontend.Pages
         {
             try{
                 Familiar familiarActualizado = _repositorioFamiliar.UpdateFamiliar(familiar);
-                return RedirectToPage("./ListadoFamiliares");
+                return RedirectToPage("../Auxiliares/AdminAuxFmliar");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

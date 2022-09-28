@@ -22,12 +22,12 @@ namespace Hospital.App.Frontend.Pages
             return Page();
         }
 
-        public ActionResult OnPost(string telefono, string password)
+        public ActionResult OnPost(string telefono)
         {
             try{
                 // Guardamos la lista de todos los medicos
                 medicos=_repositorioMedico.GetAllMedicos();
-                Console.WriteLine("tel: "+ telefono + "pass: "+ password);
+                Console.WriteLine("tel: "+ telefono );
                 
                 if (medicos != null)  
                 {
@@ -61,19 +61,7 @@ namespace Hospital.App.Frontend.Pages
 
                 */
 
-                        medico = medicos.SingleOrDefault(s => s.NumeroTelefono.Contains(telefono)); 
-
-                        if (medico.NumeroTelefono==telefono )
-                        {
-                            var idMedicoEncontrado = medico.Id;
-                            string str=idMedicoEncontrado.ToString();
-                            Console.WriteLine("Encontrado: " + medico.Nombre);
-                            return Redirect("./VerMedico?id="+str);
-                        }
-                        else{
-                            return Page();
-                        }
-                        
+                       
                 
                 
                 //paciente = _repositorioPaciente.GetPaciente(id);

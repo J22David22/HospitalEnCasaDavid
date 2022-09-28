@@ -5,7 +5,6 @@
 
 <h1>Información del paciente:</h1>
 
-
 <form method="POST">
     <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
@@ -30,7 +29,8 @@
                     <p class="card-text">Fecha de nacimiento: @Model.paciente.FechaNacimiento</p>
                 </div>
                 <a  asp-page="./EditarMPaciente" asp-route-id="@Model.paciente.Id" >Editar datos</a>
-                <a  class="btn btn-primary" asp-page="/Pacientes/SignoSVitales/ListadoSignosVItales" asp-route-id="@Model.paciente.Id" >Signos Vitales</a>
+                <a  class="btn btn-primary" asp-page="/Pacientes/SignosVitales/ListadoSignosVItales" asp-route-id="@Model.paciente.Id" >Signos Vitales</a>
+                <a  class="btn btn-primary" asp-page="/Enfermeras/ListadoHistoriasE" asp-route-id="@Model.paciente.Id" >Historia clínica</a>
             </div>
         </div>
     </div>

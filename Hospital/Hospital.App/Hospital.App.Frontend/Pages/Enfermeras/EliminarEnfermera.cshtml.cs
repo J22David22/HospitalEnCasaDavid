@@ -31,7 +31,7 @@ namespace Hospital.App.Frontend.Pages
             try
             {
                 _repoEnfermera.DeleteEnfermera(id);
-                return RedirectToPage("./ListadoEnfermeras");
+                return RedirectToPage("../Auxiliares/AdminAuxEnfermera");
             }
             catch (Exception e)
             {

@@ -31,7 +31,7 @@ namespace Hospital.App.Frontend.Pages
             try
             {
                 _repoFamiliar.DeleteFamiliar(id);
-                return RedirectToPage("./ListadoFamiliares");
+                return RedirectToPage("../Auxiliares/AdminAuxFmliar");
             }
             catch (Exception e)
             {

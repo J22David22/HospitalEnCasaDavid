@@ -49,6 +49,15 @@
                     <input type="text" asp-for="familiar.DireccionFamiliar" class="form-control" id="txtDireccionFamiliar">
                     <span asp-validation-for="familiar.DireccionFamiliar" class="text-danger"></span>
                 </div>
+                <div class="mb-3">
+                    <select class="form-select" asp-for="@Model.paciente.Id" aria-label="Asignar Enfermera">
+                        <option selected>Mi familiar es:</option>
+                        @foreach (var paciente in Model.pacientes)
+                        {
+                            <option value="@paciente.Id">@paciente.Nombre</option>
+                        }
+                    </select>
+                </div>
 
                 <button type="submit" class="btn btn-primary">Guardar</button>
             </form>

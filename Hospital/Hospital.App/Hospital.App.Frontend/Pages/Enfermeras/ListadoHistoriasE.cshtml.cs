@@ -6,7 +6,7 @@ using Hospital.App.Dominio;
 
 namespace Hospital.App.Frontend.Pages
 {
-    public class ListadoHistoriasModel : PageModel
+    public class ListadoHistoriasEModel : PageModel
     {
         private IRepositorioHistoriaClinica _repoHistoria = new RepositorioHistoriaClinica(new Hospital.App.Persistencia.AppContext());
 
@@ -22,7 +22,7 @@ namespace Hospital.App.Frontend.Pages
         public Medico medico {get;set;}
         
 
-        public ListadoHistoriasModel()
+        public ListadoHistoriasEModel()
         {}
 
         [BindProperty]
