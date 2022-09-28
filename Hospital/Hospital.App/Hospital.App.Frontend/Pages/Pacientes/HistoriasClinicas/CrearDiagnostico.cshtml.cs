@@ -60,7 +60,7 @@ namespace Hospital.App.Frontend.Pages
                 // Console.WriteLine("id: "+HistoriaClinica.Id+" HistoriaClinica: "+HistoriaClinica.HistoriaClinica+ "Entorno: "+HistoriaClinica.Entorno+"PaciID: "+HistoriaClinica.PacienteId+" MediID: "+HistoriaClinica.MedicoId);
                 Diagnostico diagnosticoAdicionado=_repositorioDiagnostico.AddDiagnostico(diagnostico);
                 // Console.WriteLine("idpapost:" + historiaClinicaAdicionado.Id);
-                return Redirect("/Medicos/ListadoPacientesM?id="+paciente.MedicoId);
+                return Redirect("/Pacientes/HistoriasClinicas/ListadoHistorias?id="+paciente.Id);
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

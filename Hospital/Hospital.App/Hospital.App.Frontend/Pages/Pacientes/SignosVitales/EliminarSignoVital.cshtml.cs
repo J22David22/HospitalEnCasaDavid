@@ -30,8 +30,11 @@ namespace Hospital.App.Frontend.Pages
         {
             try
             {
+                signoVital = _repoSignoVital.GetSignoVital(id);
+                int paci = signoVital.PacienteId;
                 _repoSignoVital.DeleteSignoVital(id);
-                return RedirectToPage("/Auxiliares/AdminAuxiliar");
+                Console.WriteLine("paci" + paci);
+                return Redirect("./ListadoSignosVitales?id="+paci);
             }
             catch (Exception e)
             {
