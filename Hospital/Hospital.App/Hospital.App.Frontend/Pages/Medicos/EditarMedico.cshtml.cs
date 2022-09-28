@@ -23,7 +23,7 @@ namespace Hospital.App.Frontend.Pages
         {
             try{
                 Medico medicoActualizado = _repositorioMedico.UpdateMedico(medico);
-                return RedirectToPage("./ListadoMedicos");
+                return RedirectToPage("../Auxiliares/AdminAuxMedico");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

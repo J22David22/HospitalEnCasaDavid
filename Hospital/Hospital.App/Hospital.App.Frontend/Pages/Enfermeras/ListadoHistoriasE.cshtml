@@ -1,12 +1,12 @@
 ﻿@page
-@model Hospital.App.Frontend.Pages.ListadoHistoriasModel
+@model Hospital.App.Frontend.Pages.ListadoHistoriasEModel
 @{
      ViewData["Title"] = "Listado de Historias Clinicas";
 }
 <h1>Listado de Historias Clinicas</h1>
 <h2>Paciente: @Model.paciente.Nombre  @Model.paciente.Apellidos</h2>
 <hr>
-<td><a class="btn btn-primary" asp-page="./CrearDiagnostico" asp-route-id="@Model.paciente.Id">Crear Historia</a></td>
+
 <hr>
 <form method="post">
 
@@ -17,7 +17,6 @@
                     <th scope="col">Fecha Diagnóstico</th>
                     <th scope="col">Diagnóstico</th>
                     <th scope="col">Sugerencias de cuidado</th>
-                    <th scope="col" colspan="2">Opciones</th>
                </tr>
           </thead>
           <tbody>
@@ -28,8 +27,8 @@
                               <td scope="row">@diagnostico.Id</td>
                               <td>@diagnostico.FechaDiagnostico</td>
                               <td>@diagnostico.DiagnosticoMedico</td>
-                              <td><a asp-page="../SugerenciasCuidado/ListaSugerenciasCuidado" asp-route-Id="@diagnostico.Id" >Ver Sugerencias</a></td>
-                              <td><a asp-page="/Pacientes/HistoriasClinicas/EliminarDiagnostico" asp-route-id="@diagnostico.Id">Eliminar</a></td>
+                              <td><a asp-page="./ListaSugerenciasCuidadoE" asp-route-Id="@diagnostico.Id" >Ver Sugerencias</a></td>
+                              
                          </tr>
                     }
 

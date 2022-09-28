@@ -3,7 +3,7 @@ using Hospital.App.Dominio;
 
 namespace Hospital.App.Persistencia
 {
-    public interface IRepositorioSugerenciasCuidados
+    public interface IRepositorioSugerenciasCuidado
     {
         IEnumerable <SugerenciasCuidado> GetAllSugerenciasCuidados();
         
@@ -14,6 +14,8 @@ namespace Hospital.App.Persistencia
         public void DeleteSugerenciasCuidado (int idSugerenciasCuidado);
 
         public SugerenciasCuidado GetSugerenciasCuidado (int idSugerenciasCuidado);
+
+        public IEnumerable<SugerenciasCuidado> GetSugerenciaXDiagnostico(int idDiagnostico);
         //public IEnumerable<SugerenciasCuidado> GetSugerenciasXPaciente(int idPaciente);
     }
 }

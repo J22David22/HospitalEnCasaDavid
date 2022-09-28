@@ -8,10 +8,10 @@ namespace Hospital.App.Frontend.Pages
     public class AdminAuxiliarModel : PageModel
     {
         // Conexión a la BDs
-        private  IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente( new Hospital.App.Persistencia.AppContext());
+        private  IRepositorioAuxiliar _repositorioAuxiliar = new RepositorioAuxiliar( new Hospital.App.Persistencia.AppContext());
 
-        // Declaro una variable para la lista de Pacientes
-        public IEnumerable<Paciente> Pacientes;
+        // Declaro una variable para la lista de Auxiliares
+        public IEnumerable<Auxiliar> Auxiliares;
 
         //Constructor
         public AdminAuxiliarModel()
@@ -19,7 +19,7 @@ namespace Hospital.App.Frontend.Pages
 
         public void OnGet()
         {
-            Pacientes = _repositorioPaciente.GetAllPacientes();
+            Auxiliares = _repositorioAuxiliar.GetAllAuxiliares();
         }
     }
 }

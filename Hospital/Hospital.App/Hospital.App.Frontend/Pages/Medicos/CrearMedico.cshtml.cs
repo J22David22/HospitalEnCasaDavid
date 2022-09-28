@@ -26,7 +26,7 @@ namespace Hospital.App.Frontend.Pages
             try{
                 
                 Medico medicoAdicionado = _repositorioMedico.AddMedico(medico);
-                return RedirectToPage("/Auxiliares/AdminAuxMedico");
+                return RedirectToPage("../Auxiliares/AdminAuxMedico");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

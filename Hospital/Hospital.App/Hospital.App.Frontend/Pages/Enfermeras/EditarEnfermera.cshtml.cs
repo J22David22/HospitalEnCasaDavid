@@ -23,7 +23,7 @@ namespace Hospital.App.Frontend.Pages
         {
             try{
                 Enfermera enfermeraActualizado = _repositorioEnfermera.UpdateEnfermera(enfermera);
-                return RedirectToPage("./ListadoEnfermeras");
+                return RedirectToPage("../Auxiliares/AdminAuxEnfermera");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

@@ -26,7 +26,7 @@ namespace Hospital.App.Frontend.Pages
             try{
                 
                 Enfermera enfermeraAdicionado = _repositorioEnfermera.AddEnfermera(enfermera);
-                return RedirectToPage("./ListadoEnfermeras");
+                return RedirectToPage("../Auxiliares/AdminAuxEnfermera");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

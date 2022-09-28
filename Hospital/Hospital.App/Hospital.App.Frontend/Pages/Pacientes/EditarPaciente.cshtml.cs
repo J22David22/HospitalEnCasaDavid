@@ -39,7 +39,7 @@ namespace Hospital.App.Frontend.Pages
                 paciente.EnfermeraId = enfermera.Id;
                 Console.WriteLine("Medico Id: " + paciente.MedicoId);
                 Paciente pacienteActualizado = _repositorioPaciente.UpdatePaciente(paciente);
-                return RedirectToPage("./ListadoPacientes");
+                return RedirectToPage("../Auxiliares/AdminAuxPaciente");
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;

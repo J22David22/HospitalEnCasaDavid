@@ -30,7 +30,7 @@ namespace Hospital.App.Frontend.Pages
                 
                 if (auxiliares != null)  
                 {
-                  
+                        
                         auxiliar = auxiliares.SingleOrDefault(s => s.NumeroTelefono.Contains(telefono)); 
 
                         if (auxiliar.NumeroTelefono==telefono )

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Hospital.App.Persistencia
 {
-    public class RepositorioSugerenciasCuidado : IRepositorioSugerenciasCuidados
+    public class RepositorioSugerenciasCuidado : IRepositorioSugerenciasCuidado
     {
         //Conectar a la BDs
 
@@ -46,6 +46,10 @@ namespace Hospital.App.Persistencia
         public IEnumerable<SugerenciasCuidado> GetAllSugerenciasCuidados()
         {
             return _appContext.SugerenciasCuidados;
+        }
+        public IEnumerable<SugerenciasCuidado> GetSugerenciaXDiagnostico(int idDiagnostico)
+        {
+            return _appContext.SugerenciasCuidados.Where(r => r.DiagnosticoId == idDiagnostico);
         }
         public SugerenciasCuidado UpdateSugerenciasCuidado(SugerenciasCuidado sugerenciasCuidado)
         {

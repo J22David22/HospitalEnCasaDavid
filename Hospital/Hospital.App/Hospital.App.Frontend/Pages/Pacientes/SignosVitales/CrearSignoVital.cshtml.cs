@@ -39,7 +39,7 @@ namespace Hospital.App.Frontend.Pages
                 signoVital.PacienteId = idpaciente;
                 Console.WriteLine("Fecha: "+signoVital.FechaHora+ "Signo: "+signoVital.Signo+"Valor: "+signoVital.Valor+" PaciID: "+signoVital.PacienteId);
                 SignoVital signoVitalAdicionado = _repositorioSignoVital.AddSignoVital(signoVital);
-                return RedirectToPage("/Auxiliares/AdminAuxiliar");
+                return Redirect("/Pacientes/SignosVitales/ListadoSignosVitales?id="+idpaciente);
             }catch(System.Exception e)
             {
                 ViewData["Error"] = "Error: " + e.Message;
